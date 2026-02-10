@@ -3,64 +3,50 @@
 <head>
 <style>
 table, th, td {
-  border: 2px dotted black;
+  border: 1px solid black;
   border-collapse: collapse;
 }
-th {
-  padding: 1px;
-  text-align: left;
+th, td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 2px;
+  padding-right: 12px;
 }
-td{
-  padding: 12px;
-}
-caption{
-	text-align: Center; 
-}
+
 </style>
 </head>
 <body>
 
-<h2>Cellpadding</h2>
-<p>Cell padding specifies the space between the cell content and its borders.</p>
+<h2>Cellpadding - top - bottom - left - right </h2>
+<p>We can specify different padding for all fours sides of the cell content.</p>
 
-<!-- <caption> tags must be inside of the <table> tag --> 
 <table style="width:100%">
-<caption> Party Members</caption> 
   <tr>
     <th>Firstname</th>
-    <th style="background-color:#ff4d94">Status</th> 
-    <th>Age</th>
+    <th>Lastname</th> 
+    <th style="background-color:#8080ff">Born</th>
   </tr>
   <tr>
-    <td>Ninten</td>
-    <td>Alive</td>
-    <td>50</td>
+    <td>Alan</td>
+    <td>Moore</td>
+    <td>1953</td>
   </tr>
   <tr>
-    <td>Lloyd</td>
-    <td>Alive</td>
-    <td>94</td>
+    <td>Paul</td>
+    <td>Dini</td>
+    <td>1957</td>
   </tr>
   <tr>
-    <td>Ana</td>
-    <td>DEAD</td>
-    <td>80</td>
+    <td>Todd</td>
+    <td>McFarlane</td>
+    <td>1961</td>
   </tr>
 </table>
-<br> 
-<table style="width:50%">
-	<tr> 
-    	<th style="padding: 25px; text-align: Center; background-color: #ce85e0"> Health </th>
-        <th style="text-align: Center;"> SP </th> 
-    </tr> 
-    <tr> 
-    	<td style="text-align: Right;">452</td>
-        <td style="text-align: Right; background-color: #80ffce">333</td>
-    </tr> 
-</table>
+<p style="text-align: right;"> I try to make these as tight as possible<br>- erercott</p>
 
 </body>
 </html>
+
 
 <!--   
   padding-top: 10px;
