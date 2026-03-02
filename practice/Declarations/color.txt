@@ -1,0 +1,3 @@
+
+color: inherit; /* Inherit color from parent */
+color: [color]; /* Replace [color] with your desired color */
