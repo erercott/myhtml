@@ -1,0 +1,9 @@
+text-decorations: 
+text-decoration: none;
+text-decoration: underline;
+text-decoration: overline;
+text-decoration: line-through;
+text-decoration: underline overline;
+text-decoration-color: [color]; /* Replace [color] with your desired color */
+text-decoration-style: solid; /* Other styles: double, dotted, dashed, wavy */
+text-decoration-thickness: [thickness]; /* Replace [thickness] with your desired value */
