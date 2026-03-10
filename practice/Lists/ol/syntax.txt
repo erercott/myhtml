@@ -1,0 +1,14 @@
+type="1"
+	- numbered list 
+
+type="A"
+	- uppercase letters 
+
+type="a"
+	- lowercase letters 
+
+type="I" 
+	- numbered with uppercase roman numerals
+
+type="i"
+	- lower case roman numerals
