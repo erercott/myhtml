@@ -1,9 +1,33 @@
 <!DOCTYPE html> 
 <html> 
 	<head> 
+		<title> Space Funeral Dance </title>
 	</head>
-<body>
-<p href="https://thecatamites.itch.io/space-funeral"> please download and play space-funeral</p>
-
+<body style="background-color: #ff96bc">
+<div style="text-align: center;">
+<a href="https://thecatamites.itch.io/space-funeral"> please download and play space-funeral</a><br>
+<a href="https://gamejolt.com/games/space-funeral/3492">Translations can be found on GameJolt</a>
+</div>
+<script> 
+	function dance(direction) {
+	var img; 
+	if (direction == 0){
+		img = "c:/data/m1.png"
+		} else {
+		img = "c:/data/m2.png"
+		}
+		document.getElementById('frame1').src = img; 
+	}
+</script>
+<br>
+<div style="text-align: center;">
+ <img id="frame1" src="c:/data/m1.png" width="25" height="33">
+</div>
+<div style="text-align: center;">
+ <p>
+ <button type="button" onclick="dance(0)">Left</button>
+ <button type="button" onclick="dance(1)">Right</button>
+ </p>
+</div>
 </body> 
 </html> 
