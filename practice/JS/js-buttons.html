@@ -4,6 +4,45 @@
 <title><h2>JS Buttons</h2></title>
 	</head>
 <body>
+	<!DOCTYPE html>
+<html>
+<body  style="background-color:#e6e6fa;">
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+<button type="button" onclick="document.getElementById('ny').innerHTML = new Date().getFullYear()">New Year</button>
+
+<p id="ny"></p>
+
+<button type="button"onclick="document.getElementById('gm').innerHTML = new Date().getMonth()">
+Month</button>
+
+<p id="gm"></p>
+
+<button type="button"onclick="document.getElementById('gd').innerHTML = new Date().getDate()">
+Date</button>
+
+<p id="gd"></p>
+
+<button type="button"onclick="document.getElementById('ts').innerHTML= new Date().toLocaleDateString()">Date Month Year</button>
+<p id='ts'></p>
+
+<button type="button"onclick="document.getElementById('ISO').innerHTML= new Date().toISOString()">Full Date</button>
+
+<p id='ISO'></p>
+
+<button type="button"onclick="document.getElementById('unix').innerHTML= new Date(1665587400 * 1000).toISOString()">UNIX</button> 
+
+<p id=unix></p>
+
+</body>
+</html> 
+
+
 	
 </body>
 </html>
