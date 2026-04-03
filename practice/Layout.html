@@ -4,7 +4,56 @@
 <title> CSS Template</title> 
 <meta name="viewport" content="width=device-width, intial-scale=1">
 <style> 
+* {
+	box-sizing: border-box; 
+}
+body {
+	font-family: Times New Roman, Helvetica, Arial; 
+}
+header{
+	background-color: ##778899;
+	padding: 30px; 
+	text-align center; 
+	font-size:35px;
+	color:white;
+}
+nav {
+	float: left; 
+	width: 30%;
+	height: 300px;
+	background: #e6cccb;
+	padding: white;
+}
+nav ul {
+	list-style-type: none; 
+	padding: 0;
+}
+article{
+	float: left; 
+	padding: 20px;
+	width: 70%;
+	background-color: #d8d8d8;
+	height: 300px;
+}
+section::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+footer{
+	background color: ##DEB887;
+	padding: 10px;
+	text-align: center; 
+	color: white; 
+}
+@media (max-width:600px){
+	nav,article {
+	width: 100%;
+	height: auto;
+	}
+}
 </style> 
+</head>
 <body>
 </body>
 <header> 
