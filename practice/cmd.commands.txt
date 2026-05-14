@@ -1,0 +1,34 @@
+1. To open command prompt: Windows + R, type cmd, enter. 
+2. To Navigate Directories: use cd. 
+3. Create a New File: Use 'echo' words >> filename.txt
+4. Echo additional content: Use 'echo' and >> to append 
+5. View Files: 'type' testfile.txt 
+6. Move Files: Use 'move' testfile.txt C:\Users\TEST\Desktop 
+9. To Delete Files: Use 'del' testfile.txt 
+10.To Copy Files: use 'copy' testfile.txt and the location 
+
+* delete directories 
+	rmdir
+		/S remove all directories and files in a specified directory
+		/Q quiet mode 
+* open.files
+ start example.html
+ start notepad++
+
+* open empty files
+echo. >> filename.txt
+
+* change tabs 
+ctrl + tab 
+
+* rename 
+rename [old_filename] {New Filename}
+
+*make dir 
+mkdir [filename]
+
+winget upgrade powershell -h
+
+* open File Explorer (CLI-dir) 
+start .
+explorer. 
