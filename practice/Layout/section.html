@@ -1,26 +1,80 @@
 <!DOCTYPE html> 
 <html lang="en">
 <head> 
-	<title> </title>
-</head> 
 <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sections</title>
+</head> 
+
 <style> 
+	section{
+		display: flex; 
+		flex-direction: column;
+		gap: 1rem;
+		align-items: flex-end;
+		gap: 1rem;
+	}
+	.console {
+	flex: 1 1 50%;
+	min-width: 200px;
+	background:#f4e6ff;
+	padding: 0.25rem 0.5rem;
+	}
+	.pc {
+	flex: 0 0 25%;
+	background:#dda0dd;
+	}
+	nav {
+	flex: 0 0 25%;
+	text-align: right; 
+	}
+	nav ul {
+		list-style: none; 
+		margin: 0;
+		padding: 0;
+	}
+	.sect {
+	padding: 1rem; 
+	}
+	.particle{
+	text-align: left;
+	}
 </style> 
 </head> 
 
 <body> 
 	<h1> </h1> 
 <header> <h1> </h1> </header>
+	<div class="sect"> 
 	<section> 
+	<div class="console">
 	<nav> 
+	<caption> CONSOLE LIBRARY </caption> 
 		<ul> 
 		<li>PSX</li>
 		<li><a href="external/XBOX360.html">XBOX 360</a></li>
 		</ul>
 	</nav> 
+	
+	<br> 
+	<div class="pc">
+	<nav> 
+	<caption> PC LIBRARY </caption>
+		<ul>  
+		<li><a href="">STEAM</a></li> 
+		<li><a href="">GOG</a></li>
+		<li><a href="">ITCH</a></li> 
+		</ul> 
+	</div> 
+	</section>
+	
+	<section> 
+<div class="particle">
 <article> 
+	<h2> About .erercott</h2> 
+	As .erercott I try to embody a more video-game centered approach to topics. 
 </article> 
-	</section> 
+</div> 
+	</section>
 <footer> 
 - Erercott
 </footer> 
