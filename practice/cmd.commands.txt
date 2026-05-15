@@ -32,3 +32,6 @@ winget upgrade powershell -h
 * open File Explorer (CLI-dir) 
 start .
 explorer. 
+
+* new doc 
+type nul >DeclareDocument.html
