@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html> 
+<head>
+	<style> 
+		header {
+		background-color:#778899; 
+		<!--display: inline-block;-->
+		}
+	</style> 
+</head> 
 <body> 
 	<h1>CHECKBOXES</h1> 
 
-<header> HTTPS </header> 
+<header> TCP </header> 
 <form action="/action_page.php">
 	
 	<input type="checkbox" id="TCP443" name="TCP443" Value="https"> 
@@ -43,7 +51,38 @@
 	<label for="IMAP"> 143.  Internet Message Access Protocol ver 4</label><br> 
 	
 	<input type="checkbox" id="TCP389" name="TC389" Value="LADP"> 
-	<label for="LDAP"> 389. Lightweight Directory Access Protocol 
+	<label for="LDAP"> 389. Lightweight Directory Access Protocol</label> 
+</section> 
+<section> 
+<header> UDP </header> 
+
+	<input type="checkbox" id="UDP53" name="UDP53" Value="DNS">
+	<label for="DNS"> 53. Domain Name Server</label><br>
 	
+	<input type="checkbox" id="UDP69" name="UDP69" Value="TFTP">
+	<label for="TFTP">69. TFTP</label><br>
+
+	<input type="checkbox" id="UDP88" name="UDP88" Value="Kerberos"> 
+	<label for="Kerberos">88. Kerberos</label><br>
+
+	<input type="checkbox" id="UDP161" name="UDP161" Value="SNMP">
+	<label for="SNMP">161. Simple Network Management Protocol</label><br> 
+
+	<input type="checkbox" id="UDP162" name="UDP162" Value="SNMP">
+	<label for="SNMP">162. Simple Network Management Protocol (trap)</label><br> 
+
+	<input type="checkbox" id="UDP137" name="UDP137" Value="NetBIOS">
+	<label for="NetBIOS">137. Network Basic Input/Output System</label><br> 
+
+	<input type="checkbox" id="UDP500" name="UDP500" Value="IPsec">
+	<label for="IPsec">500. Internet Protocol Security</label><br> 
+
+	<input type="checkbox" id="UDP1701" name="UDP1701" Value="L2TP">
+	<label for="L2TP">1701. Layer 2 Tunneling Protocol</label><br> 
+
+
+</section> 
+
+</section> 
 </body> 
 </html>
