@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<style> 
+		.note {
+			border-style:dotted; 
+			border-width:5;
+			background-color:#9dfb9d;
+			width: 25%;
+		}
+		.second-note{
+			border-style:dotted;
+			border-width:5; 
+			background-color:#b3d9ff; 
+			width: 25%; 
+		}
+		</style> 
+	</head> 
+<body> 
+<section> 
+	<header>
+		<h1>GET Method Attribute</h1>
+	</header> 
+	
+<form action="/action_page.php" target="_blank" method="get"> 
+	<label for="mname">Artist:</label><br>
+	<input type="text" id="mname" name="mname" value="name"><br> 
+	<br><br> 
+	<input type="submit" value="Submit"> 
+</form> 
+<br> 
+
+	<div class="note">
+		<section> 
+			<p><b>Note:</b> Ater you submit, the form values should be visile in the address bar of the new browser tab </p>
+		</section> 
+		
+	</div> 
+<br> 
+</section> 
+
+<section> 
+	<header> 
+		<h1>POST Method Attribute</h1>
+	</header> 
+	
+<form action="/action.php" target="_blank" method="post"> 
+	<label for="hname">Artist(s)</label>
+	<input type="text" id="fname" name="fname" value="name"<br> 
+	
+	<input type="submit" value="Submit"> 
+</form> 
+	<br><br> 
+	<div class="second-note"> 
+		<section> 
+		<p><b>Note:</b> Unlike the GET method, the form values values is not 
+		visibe ini the address bar of the new browser tab</p>
+		</section> 
+	</div> 
+</section> 
+
+
+</body> 
+</html> 
